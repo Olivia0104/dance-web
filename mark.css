@@ -1,0 +1,104 @@
+a{
+    text-decoration: none;
+    color: #d6d6d6;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(marks/got7.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} 
+nav {
+    width: 100%;
+    height: 45px;
+    background: #333333;
+}
+.title, #text1,#text2,#text3,#text4,#text5,#text6,#text7{
+    line-height: 45px;
+    float: left;
+    color: #d6d6d6;
+    width: 175px;
+    text-align: center;
+    font-size: 11px;
+}
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+li {
+    list-style: none;
+}
+#list1, #list2,#list3,#list4,#list5,#list6,#list7 {
+    list-style: none;
+    background-color: #333333;
+    text-align: center;
+    width: 175px;
+    line-height: 45px;
+    z-index: -1;
+    position: absolute;
+    left: 175px;
+    top: -360px;
+}
+#list2 {
+    left: 350px;
+}
+#list3 {
+    left: 525px;
+}
+#list4 {
+    left: 700px;
+}
+#list5 {
+    left: 875px;
+}
+#list6 {
+    left: 1050px;
+}
+#list7 {
+    left: 1225px;
+}
+#text1:hover,#text2:hover,#text3:hover,#text4:hover,#text5:hover,#text6:hover,#text7:hover {
+    color: white;
+    cursor: pointer;
+}
+#text1:hover ~ #list1,#text2:hover ~ #list2, #text3:hover ~ #list3,#text4:hover ~ #list4,#text5:hover ~ #list5,#text6:hover ~ #list6,#text7:hover ~ #list7{
+    top: 45px;
+    transition-duration: 0.5s;
+}
+#list1:hover,#list2:hover,#list3:hover,#list4:hover,#list5:hover,#list6:hover,#list7:hover{
+    top: 45px;
+    cursor: pointer;
+}
+.content1:hover,.content2:hover,.content3:hover,.content4:hover,.content5:hover,.content6:hover,.content7:hover{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.content1,.content2,.content3,.content4,.content5,.content6,.content7{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+/* body {
+    background-image: url(index/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: skyblue;
+}
+.box {
+    height: 100vh;
+    width: 100%;
+}
+.word{
+    width: 100%;
+    height: 20vh;
+    /* 高度要写vh不要写百分比，不然视频会随着变大变小 */
+}
+#Mydiv {
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-animation:mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    50% {font-size: 40px;}
+}
+
+@keyframes mymove {
+    50% {font-size: 40px;}
+}
+
+.videobox {
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+}
+.videobox video {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.person{
+    width: 100%;
+    height: 20vh;
+}
+.infobox {
+    padding-left: 9vw;
+    padding-top: 7vh;
+    display: inline-block;
+    width: 15vw;
+    height: 13vh;
+}
+.photobox
+{
+    height: 12vh;
+    display: inline-block;
+    width: 12vh;
+    padding-bottom: 1vh;
+}
+.introduction {
+    font-family: 'Times New Roman', Times, serif;
+    width: 12vh;
+    text-align: center;
+}
+.photod {
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+

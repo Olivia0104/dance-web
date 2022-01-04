@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krystal</title>
+    <link rel="stylesheet" href="krystal.css">
+</head>
+
+<body>
+
+    <div class="shell">
+        <label for="button1" class="button" style="--i:0">初智齿</label>
+        <input type="radio" id="button1" name="page" checked>
+        <div class="page">
+            <div class="page_content">
+                <h1>初智齿（Rum Pum Pum Pum)</h1>
+                <p>流派：POP流行</p>
+                <span>
+                    初智齿为一贯f(x)风格的欢乐舞曲，以第一颗智齿比喻初恋，抢耳的旋律和明快的打击乐器节奏，极具中毒性。
+                    <div style="text-align:center">
+                        <button class="btn">
+                            <a href="dance.html">首页</a>
+                        </button>
+                        <button class="btn" onclick="playPause()">播放/暂停</button>
+                        <button class="btn" onclick="makeBig()">放大</button>
+                        <button class="btn" onclick="makeSmall()">缩小</button>
+                        <button class="btn" onclick="makeNormal()">普通</button>
+                        <br>
+                        <video id="video1" width="200" controls>
+                            <source src="krystalde/rum pum pum pum.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <label for="button2" class="button" style="--i:1">Red Light</label>
+        <input type="radio" id="button2" name="page" checked>
+        <div class="page">
+            <div class="page_content">
+                <h1>Red Light</h1>
+                <p>流派：POP流行</p>
+                <span>
+                    Red Light是把从城市节奏推向House Beat的反转令人印象深刻的电子House类型的歌曲，歌词中暂时停下来重新思考人生珍贵的东西的信息，在象征警告的红灯，即"Red
+                    Light"上表现引人注目
+                    <div style="text-align:center">
+                        <button class="btn">
+                            <a href="dance.html">首页</a>
+                        </button>
+                        <button class="btn" onclick="playPause()">播放/暂停</button>
+                        <button class="btn" onclick="makeBig()">放大</button>
+                        <button class="btn" onclick="makeSmall()">缩小</button>
+                        <button class="btn" onclick="makeNormal()">普通</button>
+                        <br>
+                        <video id="video2" width="200">
+                            <source src="krystalde/red light.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <label for="button3" class="button" style="--i:2">Electric Shock</label>
+        <input type="radio" id="button3" name="page" checked>
+        <div class="page">
+            <div class="page_content">
+                <h1>Electric Shock</h1>
+                <p>流派：Dance舞曲</p>
+                <span>
+                    是旋律抢耳的活力电音舞曲，以触电来比喻坠入恋爱的瞬间，陷入爱河，混乱，但心情好的感觉比喻为像被电一样刺激的冲击
+                    <div style="text-align:center">
+                        <button class="btn">
+                            <a href="dance.html">首页</a>
+                        </button>
+                        <button class="btn" onclick="playPause()">播放/暂停</button>
+                        <button class="btn" onclick="makeBig()">放大</button>
+                        <button class="btn" onclick="makeSmall()">缩小</button>
+                        <button class="btn" onclick="makeNormal()">普通</button>
+                        <br>
+                        <video id="video3" width="200" controls>
+                            <source src="krystalde/electric shock.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="krystal.js"></script>
+</body>
+
+</html>
